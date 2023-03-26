@@ -3,8 +3,6 @@
     margin: 0;
     grid-row: 4;
     grid-column: 1;
-    grid-row: 4;
-    grid-column: 1;
 }
 
 @media (min-width: 1280px) {
