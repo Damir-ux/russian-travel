@@ -14,7 +14,7 @@
         grid-template-columns: repeat(2, 352px);
         grid-template-rows: repeat(6, 264px);
         min-height: 1664px;
-        gap: 16x 16px;
+        gap: 16px 16px;
         width: 720px;
         padding-bottom: 0;
     }
@@ -25,7 +25,7 @@
         grid-template-columns: repeat(3, 300px);
         grid-template-rows: repeat(4, 225px);
         min-height: 942px;
-        gap: 14x 14px;
+        gap: 14px 14px;
         width: 928px;
     }
 }

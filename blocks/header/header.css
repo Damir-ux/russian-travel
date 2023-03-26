@@ -1,7 +1,6 @@
 .header {
     min-height: 42px;
     min-width: 288px;
-    /* выше установили ограничения для секции */    
     display: flex;
     align-items: center;
     justify-content: space-between;

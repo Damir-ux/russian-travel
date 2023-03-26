@@ -37,7 +37,7 @@
 
 .place:nth-child(1) {
     grid-template-columns: 340px 352px;
-    grid-template-rows: 92x 340px;
+    grid-template-rows: 92px 340px;
     gap: 48px 28px;
 }
 
