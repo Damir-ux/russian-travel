@@ -1,0 +1,33 @@
+.place__title {
+    width: 288px;
+    min-height: 35px;
+    text-align: left;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 35px;
+/* identical to box height, or 109% */
+    margin: 0 auto;
+    grid-column: 1;
+    grid-row: 1; 
+  }
+
+  @media (min-width: 768px) {
+    .place__title{
+        font-size: 42px;
+        line-height: 46px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .place__title{
+        display: flex;
+        justify-items: start;
+        font-size: 72px;
+        line-height: 76px;
+        align-items: center;
+        width: 460px;
+        text-align: left;
+    }
+}

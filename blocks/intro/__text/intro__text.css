@@ -1,0 +1,29 @@
+.intro__text {
+    display: flex;
+    justify-content: left;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 163%;
+    /* or 26px */
+    margin: 40px auto 0;
+    color: #FFFFFF;
+    white-space: pre-line;
+  }
+
+  @media (min-width: 768px) {
+    .intro__text{
+      white-space: normal;
+      min-height: 208;
+      width: 720px;
+      
+    }
+}
+
+@media (min-width: 1024px) {
+  .intro__text{
+    width: 690px;
+    margin-left: 48px;
+  }
+}

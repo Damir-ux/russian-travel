@@ -1,0 +1,18 @@
+.lead__title {
+    display: inline-block;
+    text-align: center;
+    font-style: normal;
+    line-height: 44px;
+    font-size: 40px;
+    font-weight: 900;
+    margin: 0 auto;
+    white-space: pre-line;
+  }
+
+  @media (min-width: 768px) {
+    .lead__title{
+      font-size: 96px;
+      line-height: 100px;
+      white-space: nowrap;
+    }
+}
