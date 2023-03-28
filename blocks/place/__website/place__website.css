@@ -6,7 +6,7 @@
     grid-row: 2;
 }
 
-@media (min-width: 768px){
+@media screen and (min-width: 768px){
     .place__website {
        margin-top: 0;
        grid-column: 2;
@@ -14,7 +14,7 @@
 }
 }
 
-@media (min-width: 1024px){
+@media screen and (min-width: 1024px){
     .place__website {
        margin: 0;
        padding: 0;

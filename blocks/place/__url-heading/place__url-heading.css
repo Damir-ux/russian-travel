@@ -12,7 +12,7 @@
     padding: 0;
   }
 
-  @media (min-width: 1024px) {
+  @media screen and (min-width: 1024px) {
     .place__url-heading{
         display: flex;
         margin: 0 0 12px 0;

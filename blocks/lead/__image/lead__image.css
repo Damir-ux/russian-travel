@@ -1,21 +1,20 @@
 .lead__image{
     padding: 0;
+    margin: 0;
     padding-top: 40px;
     background-size: 100% 100%;
 }
 
 @media (min-width: 1024px) {
-    .cover__link{
-        margin-left: auto;
-        margin-right: auto;
+    .lead__image{
+        margin-left: 48px;
+        margin-right: 48px;
         max-width: 928px;
     }
 }
 
 @media (min-width: 1280px) {
-    .cover__link{
-        margin-left: auto;
-        margin-right: auto;
+    .lead__image{
         max-width: 984px;
     }
 }

@@ -6,15 +6,12 @@
     /* выше установили ограничение по максимальной ширине */
     margin: auto;
     /* выше для экранов больше 1600px отцентрировали весь контент */
-    font-family: "Inter";
-    background: #2A2C2F;
+    font-family: "Inter", Arial, sans-serif;
     color: #FFFFFF;
     justify-content: center;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
+    overflow: hidden;
   }
 
-  @media screen {
-    
-  }

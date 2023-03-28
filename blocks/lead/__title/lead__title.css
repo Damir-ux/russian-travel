@@ -2,17 +2,18 @@
     display: inline-block;
     text-align: center;
     font-style: normal;
-    line-height: 44px;
+    line-height: calc(44px/40px*100%);
     font-size: 40px;
     font-weight: 900;
     margin: 0 auto;
     white-space: pre-line;
+    max-width: 288px;
   }
 
   @media (min-width: 768px) {
     .lead__title{
       font-size: 96px;
-      line-height: 100px;
-      white-space: nowrap;
+      line-height: calc(100px/96px*100%);
+      max-width: 720px;
     }
 }

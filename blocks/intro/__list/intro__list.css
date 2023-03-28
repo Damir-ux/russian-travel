@@ -10,15 +10,8 @@
     line-height: 18px;
 /* or 150% */
     /* or 26px */
-    margin: 40px auto 0;
+    margin: 40px 0;
     padding: 0;
     width: 288px;
     color: #FFFFFF;
-    margin-left: 16px;
   }
-
-  @media (min-width: 768px) {
-    .intro__list{
-      margin-left: 48px;
-    }
-}
