@@ -5,14 +5,13 @@
     font-size: 32px;
     line-height: 35px;
 /* or 109% */
-
     text-align: center;
-    white-space: pre-line;
 }
 
 @media (min-width: 768px) {
     .cover__title{
         font-size: 72px;
         line-height: 76px;
+        margin: 0 0 32px;
     }
 }

@@ -4,138 +4,27 @@
     grid-template-columns: minmax(320px,768px);
 }
 
-.place:nth-child(1) {
-    grid-template-rows: 35px 46px 320px 545px;
-    
-}
-
-.place:nth-child(2) {
-    grid-template-rows: 35px 46px 320px 519px;
-}
-
-.place:nth-child(3) {
-    grid-template-rows: 35px 46px 320px 493px;
-}
-
-.place:nth-child(4) {
-    grid-template-rows: 35px 46px 320px 467px;
-}
-
-.place:nth-child(5) {
-    grid-template-rows: 35px 46px 320px 468px;
-}
-
 
 @media screen and (min-width: 768px){
-    .place {
-   
-}
-
-.place:nth-child(1) {
-    grid-template-columns: 340px 352px;
-    grid-template-rows: 92px 340px;
+    
+.place {
     gap: 48px 28px;
-}
-
-.place:nth-child(2) {
     grid-template-columns: 340px 352px;
-    grid-template-rows: 46px 340px;
-    gap: 48px 28px;
-}
-
-.place:nth-child(3) {
-    grid-template-columns: 340px 352px;
-    grid-template-rows: 46px 340px;
-    gap: 48px 28px;
-}
-
-.place:nth-child(4) {
-    grid-template-columns: 340px 352px;
-    grid-template-rows: 46px 340px;
-    gap: 48px 28px;
-}
-
-.place:nth-child(5) {
-    grid-template-columns: 340px 352px;
-    grid-template-rows: 46px 340px;
-    gap: 48px 28px;
 }
 }
-
-
 
 
 @media screen and (min-width: 1024px){
     .place {
     gap: 48px 32px;
-}
-
-.place:nth-child(1) {
     grid-template-columns: 440px 456px;
-    grid-template-rows: 152px 440px;
-    gap: 48px 32px;
 }
-
-.place:nth-child(2) {
-    grid-template-columns: 440px 456px;
-    grid-template-rows: 76px 440px;
-    gap: 48px 32px;
 }
-
-.place:nth-child(3) {
-    grid-template-columns: 440px 456px;
-    grid-template-rows: 76px 440px;
-    gap: 48px 32px;
-}
-
-.place:nth-child(4) {
-    grid-template-columns: 440px 456px;
-    grid-template-rows: 152px 440px;
-    gap: 48px 32px;
-}
-
-.place:nth-child(5) {
-    grid-template-columns: 440px 456px;
-    grid-template-rows: 76px 440px;
-    gap: 48px 32px;
-}
-
-}
-
 
 
 @media screen and (min-width: 1280px){
     .place {
-}
-
-.place:nth-child(1) {
-    grid-template-columns: 460px 484px;
-    grid-template-rows: 152px 460px;
     gap: 48px 40px;
-}
-
-.place:nth-child(2) {
     grid-template-columns: 460px 484px;
-    grid-template-rows: 76px 460px;
-    gap: 48px 40px;
 }
-
-.place:nth-child(3) {
-    grid-template-columns: 460px 484px;
-    grid-template-rows: 76px 460px;
-    gap: 48px 40px;
-}
-
-.place:nth-child(4) {
-    grid-template-columns: 460px 484px;
-    grid-template-rows: 152px 460px;
-    gap: 48px 40px;
-}
-
-.place:nth-child(5) {
-    grid-template-columns: 460px 484px;
-    grid-template-rows: 76px 460px;
-    gap: 48px 40px;
-}
-
 }

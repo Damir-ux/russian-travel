@@ -1,9 +1,28 @@
 .footer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: stretch;
     margin: 0;
     padding-top: 64px;
     padding-bottom: 24px;
     margin-left: 16px;
+    gap: 48px;
   }
+
+  @media screen and (min-width: 728px) {
+    .footer {
+      flex-direction: row;
+      margin-left: 24px;
+      padding-top: 88px;
+      justify-content: space-between;
+      margin-right: 24px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer {
+    margin-left: 48px;
+    margin-right: 48px;
+    padding-top: 92px;
+  }
+}

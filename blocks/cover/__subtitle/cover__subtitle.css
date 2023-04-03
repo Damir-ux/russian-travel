@@ -6,12 +6,15 @@
 /* or 114% */
     text-align: center;
     margin: 0;
-    white-space: pre-line;
 }
 
 @media (min-width: 768px) {
     .cover__subtitle{
+        display: flex;
         font-size: 18px;
         line-height: 22px;
+        padding-left: 40px;
+        padding-right: 40px;
+        justify-content: center;
     }
 }

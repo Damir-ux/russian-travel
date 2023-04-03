@@ -5,6 +5,14 @@
     background-size: 100% 100%;
 }
 
+
+@media (min-width: 768px) {
+    .lead__image{
+        padding-top: 56px;
+    }
+}
+
+
 @media (min-width: 1024px) {
     .lead__image{
         margin-left: 48px;
@@ -16,6 +24,9 @@
 @media (min-width: 1280px) {
     .lead__image{
         max-width: 984px;
+        margin-left: 148px;
+        margin-right: 148px;
+        padding-top: 64px;
     }
 }
 

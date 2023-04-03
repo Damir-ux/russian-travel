@@ -5,8 +5,10 @@
     padding: 33px 16px;
     background-image: url(../../../images/cover-trains.jpg);
     color: inherit;
-    background-size: 100% 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
     z-index: 1;
+    background-position: center;    
 }
 
 .cover__link::after {
@@ -28,6 +30,7 @@ opacity: 0.8;
 @media (min-width: 768px) {
     .cover__link{
         padding: 115px 104px;
+        background-size: 100% 100%;
     }
 }
 
@@ -39,6 +42,8 @@ opacity: 0.8;
 
 @media (min-width: 1280px) {
     .cover__link{
-        max-width: 1184px;
+        max-width: 1280px;
+        background-size: cover;
+        padding: 245px 312px;
     }
 }

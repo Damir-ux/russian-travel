@@ -3,14 +3,14 @@
     flex-direction: column;
     list-style: none;
     text-align: left;
-    font-family: 'Inter';
+    font-family: "Inter", Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
     line-height: 18px;
 /* or 150% */
     /* or 26px */
-    margin: 40px 0;
+    margin: 33px 0;
     padding: 0;
     width: 288px;
   }

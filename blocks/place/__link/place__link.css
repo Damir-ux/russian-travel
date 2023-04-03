@@ -1,5 +1,5 @@
 .place__link {
-    width: 288px;
+    max-width: 288px;
     text-align: left;
     font-style: normal;
     font-weight: 400;
@@ -8,16 +8,22 @@
 /* identical to box height, or 122% */
     text-decoration-line: underline;
     color: #FFFFFF;
-    margin: 12px auto 0;
+    margin: 12px 0 0 16px;
   }
 
   .place__link:hover {
     opacity: 0.8;
   }
 
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 768px) {
     .place__link {
         margin: 0;
+    }
+}
+
+
+  @media screen and (min-width: 1024px) {
+    .place__link {
         position: relative;
         bottom: 0;
         left: 0;

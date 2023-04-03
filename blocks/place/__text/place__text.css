@@ -5,9 +5,9 @@
     grid-column: 1;
 }
 
+
 @media screen and (min-width: 1280px) {
     .place__text{
         grid-row: 1;
-        grid-column: 1;
     }
 }

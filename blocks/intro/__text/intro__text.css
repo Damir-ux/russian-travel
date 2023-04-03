@@ -4,23 +4,23 @@
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 163%;
+    line-height: 26px;
     /* or 26px */
     margin: 40px 0 0 0;
-    white-space: pre-line;
     padding: 0;
   }
 
   @media (min-width: 768px) {
     .intro__text{
       white-space: normal;
-      width: 720px;
-      
+      min-width: 500px;
+      width: 100%;
     }
 }
 
 @media (min-width: 1024px) {
   .intro__text{
-    width: 690px;
+    max-width: 690px;
+    width: 100%;
   }
 }
