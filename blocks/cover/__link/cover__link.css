@@ -29,7 +29,6 @@ opacity: 0.8;
 @media (min-width: 768px) {
     .cover__link{
         padding: 115px 104px;
-        background-size: 100% 100%;
     }
 }
 
